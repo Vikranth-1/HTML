@@ -1,0 +1,13 @@
+The script element is used to embed executable code. Most developers will use this to execute JavaScript code. JavaScript is used to add interactivity to your web pages. Common examples of using JavaScript include interactive games, image sliders, and dynamic forms that validate user input in real-time.
+
+Here is an example of using the script element in an HTML document. Remove the // from in front of the alert("Welcome to freeCodeCamp"); and you should see an alert pop up. To see the previews, you will need to enable the interactive editor.
+
+<body>
+  <script>
+    // alert("Welcome to freeCodeCamp");
+  </script>
+</body>
+While you can technically write all of your JavaScript code inside the script tags, it is considered best practice to link to an external JavaScript file instead. Here is an example of using the script element to link to an external JavaScript file:
+
+<script src="path-to-javascript-file.js"></script>
+The src attribute is used here to specify the location for that external JavaScript file. src stands for "source". The reason why it is not encouraged to place all of your JavaScript inside the HTML document is because of separation of concerns. Separation of concerns is a design principle where you separate your programs into distinct sections and have each section address a separate concern. In this case, we want to separate our JavaScript code from our HTML code.
